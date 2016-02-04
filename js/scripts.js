@@ -1,5 +1,6 @@
 $(function(){
-  $("p").click(function() {
-    $("img").show();
+  $(".clickable").click(function() {
+    $(".zooey-showing").toggle();
+    $(".zooey-hidden").toggle();
   });
 });
